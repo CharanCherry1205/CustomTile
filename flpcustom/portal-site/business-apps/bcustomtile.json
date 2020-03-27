@@ -1,0 +1,35 @@
+{
+	"_version": "3.0.0",
+	"identification": {
+		"id": "businesscustomapp",
+		"entityType": "businessapp",
+		"i18n": "i18n/businessApps.properties"
+	},
+	
+	"payload": {
+
+		"visualizations": {
+
+			"products-displayTocustom": {
+				"vizType": "appui5.appui5",
+				
+				"vizConfig": {
+					"sap.app": {
+						"subTitle": "CustomApp"
+					},
+					"sap.flp": {
+						"target": {
+							"inboundId": "products-display"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
